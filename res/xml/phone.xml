@@ -1,0 +1,36 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="50dp"
+    android:keyWidth="25%p">
+
+    <Row>
+        <Key android:keyLabel="1" />
+        <Key android:keyLabel="2" />
+        <Key android:keyLabel="3" />
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyIcon="@android:drawable/ic_input_delete" />
+    </Row>
+    <Row>
+        <Key android:keyLabel="4" />
+        <Key android:keyLabel="5" />
+        <Key android:keyLabel="6" />
+        <Key android:keyLabel="+" />
+    </Row>
+    <Row>
+        <Key android:keyLabel="7" />
+        <Key android:keyLabel="8" />
+        <Key android:keyLabel="9" />
+        <Key android:keyLabel="-" />
+    </Row>
+    <Row>
+        <Key
+            android:keyLabel="*" />
+        <Key android:keyLabel="0" />
+        <Key android:keyLabel="#" />
+        <Key
+            android:codes="10"
+            android:keyLabel="↵" />
+    </Row>
+
+</Keyboard>

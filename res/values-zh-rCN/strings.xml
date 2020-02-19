@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">四角号码输入法</string>
+    <string name="prev_page">&lt;</string>
+    <string name="next_page">&gt;</string>
+    <string name="poem_title">四角号码口诀</string>
+    <string name="poem_content">横一垂二三点捺\n叉四插五方框六\n七角八八九是小\n点下有横变零头</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="candidate_background">#000000</color>
+    <color name="candidate_foreground">#00ff00</color>
+    <color name="left_right_buttons">#ffffff</color>
+</resources>

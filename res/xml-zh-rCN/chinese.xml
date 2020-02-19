@@ -1,0 +1,41 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="50dp"
+    android:keyWidth="25%p" >
+
+    <Row>
+        <Key android:keyLabel="1 bp" android:popupCharacters="一" />
+        <Key android:keyLabel="2 ck" android:popupCharacters="丨" />
+        <Key android:keyLabel="3 dt" android:popupCharacters="丶" />
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyIcon="@android:drawable/ic_input_delete" />
+    </Row>
+    <Row>
+        <Key android:keyLabel="4 eijy" android:popupCharacters="十" />
+        <Key android:keyLabel="5 fuvw" android:popupCharacters="キ" />
+        <Key android:keyLabel="6 gq" android:popupCharacters="口" />
+        <Key
+            android:codes="32"
+            android:keyLabel="空格" />
+    </Row>
+    <Row>
+        <Key android:keyLabel="7 lr" android:popupCharacters="乛" />
+        <Key android:keyLabel="8 mn" android:popupCharacters="八" />
+        <Key android:keyLabel="9 sxz" android:popupCharacters="小" />
+        <Key
+            android:codes="-100"
+            android:keyLabel="口诀" />
+    </Row>
+    <Row>
+        <Key android:keyLabel="*" />
+        <Key android:keyLabel="0 aho" android:popupCharacters="亠" />
+        <Key
+            android:codes="-2"
+            android:keyLabel="中" />
+        <Key
+            android:codes="10"
+            android:keyLabel="↵" />
+    </Row>
+
+</Keyboard>
